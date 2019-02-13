@@ -8,8 +8,6 @@ import numpy as np
 import scipy.spatial as spatial
 
 
-# do NOT modify the returned points! kdtree uses a reference, not a copy of these points,
-# so modifying the points would make the kdtree give incorrect results
 def load_shape(point_filename, normals_filename, curv_filename, pidx_filename, clean_points_filename):
     pts = np.load(point_filename+'.npy')
 
