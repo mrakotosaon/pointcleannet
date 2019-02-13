@@ -1,0 +1,13 @@
+/data/
+/models/*.pth
+/models/*.txt
+/__pycache__/
+/logs/
+/noise_removal/results/
+/outliers_removal/results/
+/noise_removal/*.pyc
+/outliers_removal/*.pyc
+/outliers_removal/models/*.pth
+/noise_removal/models/*.pth
+/outliers_removal/models/*.txt
+/noise_removal/models/*.txt
