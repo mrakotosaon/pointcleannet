@@ -10,8 +10,6 @@ import random
 
 REAL_DATA = True
 TRAINING = False
-# do NOT modify the returned points kdtree uses references, not a copy of these points,
-# so modifying the points would make the kdtree give incorrect results
 def load_shape(point_filename, normals_filename, curv_filename, pidx_filename, clean_points_filename, outliers_filename):
     pts = np.load(point_filename+'.npy')
 
