@@ -4,10 +4,8 @@
 /__pycache__/
 /logs/
 /noise_removal/results/
+/noise_removal/logs/
 /outliers_removal/results/
+/outliers_removal/logs/
 /noise_removal/*.pyc
 /outliers_removal/*.pyc
-/outliers_removal/models/*.pth
-/noise_removal/models/*.pth
-/outliers_removal/models/*.txt
-/noise_removal/models/*.txt

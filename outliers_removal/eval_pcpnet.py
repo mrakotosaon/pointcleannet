@@ -18,11 +18,11 @@ def parse_arguments():
     parser = argparse.ArgumentParser()
 
     # naming / file handling
-    parser.add_argument('--indir', type=str, default='../data/pointCleanNetOutliersDataset', help='input folder (point clouds)')
+    parser.add_argument('--indir', type=str, default='../data/pointCleanNetOutliersTestSet', help='input folder (point clouds)')
     parser.add_argument('--outdir', type=str, default='./results', help='output folder (estimated point cloud properties)')
     parser.add_argument('--dataset', type=str, default='validationset.txt', help='shape set file name')
-    parser.add_argument('--modeldir', type=str, default='./models', help='model folder')
-    parser.add_argument('--model', type=str, default='PoinCleanNetOutliers', help='names of trained models, can evaluate multiple models')
+    parser.add_argument('--modeldir', type=str, default='../models/outliersRemovalModel', help='model folder')
+    parser.add_argument('--model', type=str, default='PointCleanNetOutliers', help='names of trained models, can evaluate multiple models')
     parser.add_argument('--modelpostfix', type=str, default='_model.pth', help='model file postfix')
     parser.add_argument('--parmpostfix', type=str, default='_params.pth', help='parameter file postfix')
 

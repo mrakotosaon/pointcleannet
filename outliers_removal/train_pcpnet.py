@@ -24,9 +24,9 @@ def parse_arguments():
         '--name', type=str, default='PoinCleanNetOutliers', help='training run name')
     parser.add_argument(
         '--desc', type=str, default='My training run for single-scale normal estimation.', help='description')
-    parser.add_argument('--indir', type=str, default='../data/pointCleanNetOutliersDataset',
+    parser.add_argument('--indir', type=str, default='../data/pointCleanNetOutliersTrainingSet',
                         help='input folder (point clouds)')
-    parser.add_argument('--outdir', type=str, default='./models',
+    parser.add_argument('--outdir', type=str, default='../models',
                         help='output folder (trained models)')
     parser.add_argument('--logdir', type=str,
                         default='./logs', help='training log folder')

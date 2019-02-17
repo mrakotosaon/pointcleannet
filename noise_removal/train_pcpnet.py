@@ -26,7 +26,7 @@ def parse_arguments():
         '--desc', type=str, default='My training run for PointCleanNet noise removal', help='description')
     parser.add_argument('--indir', type=str, default='../data/pointCleanNetDataset',
                         help='input folder (point clouds)')
-    parser.add_argument('--outdir', type=str, default='./models',
+    parser.add_argument('--outdir', type=str, default='../models',
                         help='output folder (trained models)')
     parser.add_argument('--logdir', type=str,
                         default='./logs', help='training log folder')
