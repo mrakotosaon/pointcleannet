@@ -27,6 +27,21 @@ Clone this repository:
 git clone https://github.com/mrakotosaon/pointcleannet.git
 cd pointcleannet
 ```
+
+
+Download denoising dataset:
+``` bash
+cd data
+python download_data.py --task denoising
+```
+
+Download outliers_removal training and test sets:
+``` bash
+cd data
+python download_data.py --task outliers_removal
+```
+
+
 ## Removing outliers
 To classify outliers using default settings:
 ``` bash
