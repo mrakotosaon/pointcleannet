@@ -42,6 +42,19 @@ python download_data.py --task outliers_removal
 ```
 
 
+Download denoising pretrained model:
+``` bash
+cd models
+python download_models.py --task denoising
+```
+
+Download outliers_removal pretrained model:
+``` bash
+cd models
+python download_models.py --task outliers_removal
+```
+
+
 ## Removing outliers
 To classify outliers using default settings:
 ``` bash
