@@ -29,28 +29,18 @@ cd pointcleannet
 ```
 
 
-Download denoising dataset:
+Download datasets:
 ``` bash
 cd data
 python download_data.py --task denoising
-```
-
-Download outliers_removal training and test sets:
-``` bash
-cd data
 python download_data.py --task outliers_removal
 ```
 
 
-Download denoising pretrained model:
+Download pretrained models:
 ``` bash
 cd models
 python download_models.py --task denoising
-```
-
-Download outliers_removal pretrained model:
-``` bash
-cd models
 python download_models.py --task outliers_removal
 ```
 
