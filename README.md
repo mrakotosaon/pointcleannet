@@ -44,6 +44,20 @@ python download_models.py --task denoising
 python download_models.py --task outliers_removal
 ```
 
+ ## Data
+
+Our data can be found here: https://nuage.lix.polytechnique.fr/index.php/s/xSRrTNmtgqgeLGa .
+
+It contains the following files:
+- Dataset for denoising
+- Training set and test set for outliers removal
+- Pre-trained models for denoising and outliers removal
+
+In the datasets the input and ground truth point clouds are stored in different files with the same name but with different extensions.
+- For denoising: `.xyz` for input noisy point clouds, `.clean_xyz` for the ground truth.
+- For outliers removal: `.xyz` for input point clouds with outliers, `.outliers` for the labels.
+
+
 
 ## Removing outliers
 To classify outliers using default settings:
