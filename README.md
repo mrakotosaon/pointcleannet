@@ -62,14 +62,19 @@ In the datasets the input and ground truth point clouds are stored in different 
 ## Removing outliers
 To classify outliers using default settings:
 ``` bash
+cd outliers_removal
+mkdir results
 python eval_pcpnet.py
 ```
 
 ## Denoising
 To denoise point clouds using default settings:
 ``` bash
+cd noise_removal
+mkdir results
 ./run.sh
 ```
+(the input shapes and number of iterations are specified in run.sh file)
 
 
 ## Training
