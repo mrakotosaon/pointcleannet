@@ -1,4 +1,4 @@
-# PointCleanNet
+# [PointCleanNet](http://www.lix.polytechnique.fr/Labo/Marie-Julie.RAKOTOSAONA/pointcleannet.html)
 This is our implementation of PointCleannet, a network removes outliers and reduces noise in unordered point clouds.
 
 
@@ -6,7 +6,7 @@ This is our implementation of PointCleannet, a network removes outliers and redu
 
 The architecture is similar to [PCPNet](http://geometry.cs.ucl.ac.uk/projects/2018/pcpnet/) (with a few smaller modifications).
 
-This code was written by Marie-Julie Rakotosaona, based on the excellent implementation of PCPNet by [Paul Guerrero](https://paulguerrero.github.io) and [Yanir Kleiman](https://www.cs.tau.ac.il/~yanirk/).
+This code was written by [Marie-Julie Rakotosaona](http://www.lix.polytechnique.fr/Labo/Marie-Julie.RAKOTOSAONA/), based on the excellent implementation of PCPNet by [Paul Guerrero](https://paulguerrero.github.io) and [Yanir Kleiman](https://www.cs.tau.ac.il/~yanirk/).
 
 ## Prerequisites
 * CUDA and CuDNN (changing the code to run on CPU should require few changes)
