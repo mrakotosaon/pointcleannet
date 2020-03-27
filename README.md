@@ -86,10 +86,14 @@ python train_pcpnet.py
 ## Citation
 If you use our work, please cite our paper.
 ```
-@article{rakotosaona2019pointcleannet,
-  title={PointCleanNet: Learning to Denoise and Remove Outliers from Dense Point Clouds},
+@inproceedings{rakotosaona2020pointcleannet,
+  title={POINTCLEANNET: Learning to denoise and remove outliers from dense point clouds},
   author={Rakotosaona, Marie-Julie and La Barbera, Vittorio and Guerrero, Paul and Mitra, Niloy J and Ovsjanikov, Maks},
-  journal={Computer Graphics Forum},
-  year={2019}
+  booktitle={Computer Graphics Forum},
+  volume={39},
+  number={1},
+  pages={185--203},
+  year={2020},
+  organization={Wiley Online Library}
 }
 ```
